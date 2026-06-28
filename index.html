@@ -438,14 +438,22 @@
             <span class="room-floor">3rd Floor Unit</span>
             <div class="room-header">
               <h3 class="room-title">1BHK AC / Non-AC</h3>
-              <span class="room-subtitle">3rd Floor · Switchable AC</span>
+              <span class="room-subtitle">3rd Floor • Switchable AC</span>
             </div>
-            <p class="room-spec">A flexible 1BHK stay on the 3rd floor where AC can be turned on or off based on preference.</p>
+            <p class="room-spec">A flexible 1BHK stay on the 3rd floor where AC can be turned on or off based on preference. Choose AC or Non-AC pricing before booking.</p>
             
             <ul class="room-amenities">
               <li class="room-amenity">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-2 10h-4v-2h4v2zm0-4h-4V7h4v2zm-6 4H7v-2h4v2zm0-4H7V7h4v2z"/></svg>
+                3rd Floor
+              </li>
+              <li class="room-amenity">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 19H5V5h14v14zM3 3v18h18V3H3zm8 6h2v2h-2V9zm0 4h2v2h-2v-2z"/></svg>
-                Air Conditioning (Switchable)
+                AC / Non-AC Option
+              </li>
+              <li class="room-amenity">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 19H5V5h14v14zM3 3v18h18V3H3zm8 6h2v2h-2V9zm0 4h2v2h-2v-2z"/></svg>
+                Switchable AC
               </li>
               <li class="room-amenity">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15.93c-3.95-.49-7-3.85-7-7.93h2c0 2.82 2.24 5.07 5 5.07v2.86z"/></svg>
@@ -461,20 +469,31 @@
               </li>
             </ul>
             
-            <div class="room-price-row">
-              <div class="price-item">
-                <span class="room-price-label">AC Weekdays</span>
-                <span class="room-price-value">₹1500<small>/night</small></span>
+            <div class="room-choice-box" data-room="1bhk-switchable">
+              <div class="choice-price-area">
+                <span class="old-price" data-old-price></span>
+                <strong class="dynamic-price" data-dynamic-price>₹1300</strong>
+                <span class="price-unit">per night</span>
               </div>
-              <div class="price-item">
-                <span class="room-price-label">AC Sat-Sun</span>
-                <span class="room-price-value">₹1700<small>/night</small></span>
+
+              <div class="choice-label">Select Preference:</div>
+
+              <div class="choice-buttons">
+                <button class="choice-btn active" type="button" data-choice="non-ac">
+                  Non AC
+                </button>
+                <button class="choice-btn" type="button" data-choice="ac">
+                  AC
+                </button>
               </div>
-              <span class="room-price-note">Non-AC price available on request.</span>
+
+              <p class="choice-note" data-choice-note>
+                Non-AC selected: ₹1300 weekdays / ₹1500 Sat-Sun.
+              </p>
             </div>
             
             <div class="room-actions">
-              <a href="https://wa.me/919401709323?text=Hello%20Nahor%20Homestay%2C%20I%20want%20to%20book%20the%201BHK%20AC/Non-AC%203rd%20Floor." class="btn-primary" target="_blank" rel="noopener">Book WhatsApp</a>
+              <a href="https://wa.me/919401709323?text=Hello%20Nahor%20Homestay%2C%20I%20want%20to%20book%20the%201BHK%20AC/Non-AC%203rd%20Floor%20room%20with%20Non-AC%20option.%20Please%20share%20availability." class="btn-primary book-whatsapp" target="_blank" rel="noopener">Confirm on WhatsApp</a>
               <a href="tel:+919401709323" class="btn-outline">Call Now</a>
             </div>
           </div>

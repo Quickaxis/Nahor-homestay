@@ -220,5 +220,53 @@ document.addEventListener('DOMContentLoaded', () => {
         viewMoreBtn.style.display = 'none';
       }
     });
+  // 1BHK switchable AC/Non-AC preference selector
+  const switchableRoom = document.querySelector('[data-room="1bhk-switchable"]');
+
+  if (switchableRoom) {
+    const priceEl = switchableRoom.querySelector('[data-dynamic-price]');
+    const oldPriceEl = switchableRoom.querySelector('[data-old-price]');
+    const noteEl = switchableRoom.querySelector('[data-choice-note]');
+    const buttons = switchableRoom.querySelectorAll('.choice-btn');
+
+    const prices = {
+      'non-ac': {
+        display: '₹1300',
+        old: '',
+        note: 'Non-AC selected: ₹1300 weekdays / ₹1500 Sat-Sun.',
+        whatsapp: 'Hello Nahor Homestay, I want to book the 1BHK AC/Non-AC 3rd Floor room with Non-AC option. Please share availability.'
+      },
+      'ac': {
+        display: '₹1500',
+        old: '',
+        note: 'AC selected: ₹1500 weekdays / ₹1700 Sat-Sun.',
+        whatsapp: 'Hello Nahor Homestay, I want to book the 1BHK AC/Non-AC 3rd Floor room with AC option. Please share availability.'
+      }
+    };
+
+    buttons.forEach((btn) => {
+      btn.addEventListener('click', (e) => {
+        e.preventDefault();
+        const choice = btn.dataset.choice;
+        const data = prices[choice];
+
+        buttons.forEach((b) => b.classList.remove('active'));
+        btn.classList.add('active');
+
+        priceEl.textContent = data.display;
+        noteEl.textContent = data.note;
+
+        if (oldPriceEl) {
+          oldPriceEl.textContent = data.old;
+          oldPriceEl.style.display = data.old ? 'inline' : 'none';
+        }
+
+        const bookingBtn = switchableRoom.closest('.room-info')?.querySelector('.btn-book-room, .btn-room, .book-whatsapp, a[href*="wa.me"]');
+
+        if (bookingBtn) {
+          bookingBtn.href = `https://wa.me/919401709323?text=${encodeURIComponent(data.whatsapp)}`;
+        }
+      });
+    });
   }
 });
