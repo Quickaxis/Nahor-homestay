@@ -221,60 +221,69 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   // 1BHK switchable AC/Non-AC preference selector
-  const switchableRoom = document.querySelector('[data-room="1bhk-switchable"]');
+  // Handled in a separate DOMContentLoaded listener below
+});
 
-  if (switchableRoom) {
-    const priceEl = switchableRoom.querySelector('[data-dynamic-price]');
-    const oldPriceEl = switchableRoom.querySelector('[data-old-price]');
-    const noteEl = switchableRoom.querySelector('[data-choice-note]');
-    const buttons = switchableRoom.querySelectorAll('.choice-btn');
+document.addEventListener("DOMContentLoaded", () => {
+  const choiceBox = document.querySelector('[data-room-choice="1bhk-switchable"]');
 
-    const prices = {
-      'non-ac': {
-        display: '₹1300',
-        old: '',
-        note: 'Non-AC selected: ₹1300 weekdays / ₹1500 Sat-Sun.',
-        whatsapp: `Hello Nahor Homestay, I want to book the 1BHK AC/Non-AC 3rd Floor with Non-AC option.
-Floor: 3rd Floor
-Type: Non-AC
-Price: ₹1300 weekdays / ₹1500 Sat-Sun.
-Please share availability.`
-      },
-      'ac': {
-        display: '₹1500',
-        old: '',
-        note: 'AC selected: ₹1500 weekdays / ₹1700 Sat-Sun.',
-        whatsapp: `Hello Nahor Homestay, I want to book the 1BHK AC/Non-AC 3rd Floor with AC option.
-Floor: 3rd Floor
-Type: AC
-Price: ₹1500 weekdays / ₹1700 Sat-Sun.
-Please share availability.`
-      }
-    };
+  if (!choiceBox) return;
 
-    buttons.forEach((btn) => {
-      btn.addEventListener('click', (e) => {
-        e.preventDefault();
-        const choice = btn.dataset.choice;
-        const data = prices[choice];
+  const priceEl = choiceBox.querySelector("[data-dynamic-price]");
+  const noteEl = choiceBox.querySelector("[data-choice-note]");
+  const buttons = choiceBox.querySelectorAll(".choice-btn");
 
-        buttons.forEach((b) => b.classList.remove('active'));
-        btn.classList.add('active');
+  const roomCard = choiceBox.closest(".room-card");
+  const whatsappBtn =
+    roomCard?.querySelector('a[href*="wa.me"]') ||
+    roomCard?.querySelector(".book-whatsapp") ||
+    roomCard?.querySelector(".btn-book-room") ||
+    roomCard?.querySelector(".btn-primary");
 
-        priceEl.textContent = data.display;
-        noteEl.textContent = data.note;
+  const roomOptions = {
+    "non-ac": {
+      price: "₹1300",
+      note: "Non-AC selected: ₹1300 weekdays / ₹1500 Sat-Sun.",
+      message:
+        "Hello Nahor Homestay, I want to book the 1BHK AC/Non-AC 3rd Floor with Non-AC option.\nFloor: 3rd Floor\nType: Non-AC\nPrice: ₹1300 weekdays / ₹1500 Sat-Sun.\nPlease share availability."
+    },
+    ac: {
+      price: "₹1500",
+      note: "AC selected: ₹1500 weekdays / ₹1700 Sat-Sun.",
+      message:
+        "Hello Nahor Homestay, I want to book the 1BHK AC/Non-AC 3rd Floor with AC option.\nFloor: 3rd Floor\nType: AC\nPrice: ₹1500 weekdays / ₹1700 Sat-Sun.\nPlease share availability."
+    }
+  };
 
-        if (oldPriceEl) {
-          oldPriceEl.textContent = data.old;
-          oldPriceEl.style.display = data.old ? 'inline' : 'none';
-        }
+  function updateChoice(choice) {
+    const selectedOption = roomOptions[choice];
 
-        const bookingBtn = switchableRoom.closest('.room-info')?.querySelector('.btn-book-room, .btn-room, .book-whatsapp, a[href*="wa.me"]');
+    if (!selectedOption) return;
 
-        if (bookingBtn) {
-          bookingBtn.href = `https://wa.me/919401709323?text=${encodeURIComponent(data.whatsapp)}`;
-        }
-      });
+    buttons.forEach((button) => {
+      button.classList.toggle("active", button.dataset.choice === choice);
     });
+
+    if (priceEl) {
+      priceEl.textContent = selectedOption.price;
+    }
+
+    if (noteEl) {
+      noteEl.textContent = selectedOption.note;
+    }
+
+    if (whatsappBtn) {
+      whatsappBtn.href =
+        "https://wa.me/919401709323?text=" +
+        encodeURIComponent(selectedOption.message);
+    }
   }
+
+  buttons.forEach((button) => {
+    button.addEventListener("click", () => {
+      updateChoice(button.dataset.choice);
+    });
+  });
+
+  updateChoice("non-ac");
 });
