@@ -234,13 +234,21 @@ document.addEventListener('DOMContentLoaded', () => {
         display: '₹1300',
         old: '',
         note: 'Non-AC selected: ₹1300 weekdays / ₹1500 Sat-Sun.',
-        whatsapp: 'Hello Nahor Homestay, I want to book the 1BHK AC/Non-AC 3rd Floor room with Non-AC option. Please share availability.'
+        whatsapp: `Hello Nahor Homestay, I want to book the 1BHK AC/Non-AC 3rd Floor with Non-AC option.
+Floor: 3rd Floor
+Type: Non-AC
+Price: ₹1300 weekdays / ₹1500 Sat-Sun.
+Please share availability.`
       },
       'ac': {
         display: '₹1500',
         old: '',
         note: 'AC selected: ₹1500 weekdays / ₹1700 Sat-Sun.',
-        whatsapp: 'Hello Nahor Homestay, I want to book the 1BHK AC/Non-AC 3rd Floor room with AC option. Please share availability.'
+        whatsapp: `Hello Nahor Homestay, I want to book the 1BHK AC/Non-AC 3rd Floor with AC option.
+Floor: 3rd Floor
+Type: AC
+Price: ₹1500 weekdays / ₹1700 Sat-Sun.
+Please share availability.`
       }
     };
 
