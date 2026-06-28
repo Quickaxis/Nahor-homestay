@@ -382,6 +382,27 @@ https://maps.app.goo.gl/Vk3cj9z2UcWE7DzCA
 
 ---
 
+# 14.5 Nearby Locations Content
+
+## Section Title
+Centrally Located in Dibrugarh
+
+## Section Description
+Nahor Homestay is located near major transport points, colleges, hospitals, temples, sports locations, and key places in Dibrugarh, making it convenient for families, students, patients, travellers, and groups.
+
+## Locations list:
+1. Dibrugarh Railway Station (Approx. 1.6 km) - Railway Station
+2. Dibrugarh University & Colleges (Approx. 3.4 km) - Education Hub
+3. Dibrugarh Town Railway Station (Approx. 4.8 km) - Railway Station
+4. Assam Medical College & Hospital (Approx. 7 km) - Hospital / Medical College
+5. Jagannath Mandir (Approx. 6–7 km) - Temple / Tourist Place
+6. Dibrugarh Airport (Approx. 14.5–16 km) - Airport
+7. ASTC Bus Stand (Approx. 4–5 km) - Bus Stand
+8. Jalan Outdoor Stadium (Approx. 2–3 km) - Stadium
+9. New Sports Complex (Approx. 6–7 km) - Sports Complex
+
+---
+
 # 15. Contact Section Content
 
 ## Section Title

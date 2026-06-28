@@ -2618,3 +2618,131 @@ section {
     transform: translateY(-8px) rotate(-45deg);
   }
 }
+
+/* ── Nearby Locations Section ───────────────────────────────────────────────── */
+.nearby-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.nearby-card {
+  padding: 22px;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid rgba(15, 42, 31, 0.08);
+  box-shadow: 0 12px 34px rgba(15, 42, 31, 0.07);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  transition: all 0.3s ease;
+}
+
+.nearby-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 16px;
+  background: var(--color-deep-green-glow, rgba(15, 42, 31, 0.06));
+  color: var(--color-deep-green, #0F2A1F);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+  transition: all 0.3s ease;
+}
+
+.nearby-icon svg {
+  width: 22px;
+  height: 22px;
+}
+
+.nearby-card:hover .nearby-icon {
+  background: var(--color-gold);
+  color: white;
+}
+
+.nearby-distance {
+  display: inline-flex;
+  width: fit-content;
+  padding: 7px 11px;
+  border-radius: 999px;
+  background: rgba(207, 166, 79, 0.14);
+  color: var(--color-gold);
+  font-weight: 900;
+  font-size: 0.78rem;
+  margin-bottom: 12px;
+}
+
+.nearby-card h3 {
+  font-size: 1.05rem;
+  line-height: 1.25;
+  margin-bottom: 6px;
+  font-family: var(--font-heading);
+  font-weight: 800;
+  color: var(--text-main);
+}
+
+.nearby-category {
+  font-size: 0.78rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+
+.nearby-card p {
+  font-size: 0.88rem;
+  line-height: 1.55;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+.nearby-seo-note {
+  margin-top: 40px;
+  padding: 24px;
+  border-radius: 20px;
+  background: rgba(15, 42, 31, 0.03);
+  border-left: 4px solid var(--color-gold);
+  text-align: left;
+}
+
+.nearby-seo-note p {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .nearby-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+
+  .nearby-card {
+    padding: 16px 14px;
+    border-radius: 20px;
+  }
+
+  .nearby-card h3 {
+    font-size: 0.92rem;
+  }
+
+  .nearby-card p {
+    font-size: 0.76rem;
+    line-height: 1.45;
+  }
+
+  .nearby-distance {
+    font-size: 0.72rem;
+    padding: 6px 9px;
+  }
+}
+
+@media (max-width: 340px) {
+  .nearby-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
