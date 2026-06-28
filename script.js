@@ -93,108 +93,95 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   // Room Image Carousels
-  const roomCarousels = document.querySelectorAll('.room-carousel');
-  roomCarousels.forEach(carousel => {
+  document.querySelectorAll('.room-carousel').forEach((carousel) => {
     const track = carousel.querySelector('.carousel-track');
-    const slides = carousel.querySelectorAll('.carousel-slide');
-    const dotsContainer = carousel.querySelector('.carousel-dots');
-    
+    const slides = Array.from(carousel.querySelectorAll('.carousel-slide'));
+    const prevBtn = carousel.querySelector('.carousel-btn.prev');
+    const nextBtn = carousel.querySelector('.carousel-btn.next');
+    const dotsWrap = carousel.querySelector('.carousel-dots');
+
     if (!track || slides.length === 0) return;
 
-    // Dynamically create dots
-    if (dotsContainer) {
-      dotsContainer.innerHTML = '';
-      slides.forEach((_, idx) => {
-        const dot = document.createElement('span');
-        dot.className = `carousel-dot${idx === 0 ? ' active' : ''}`;
-        dot.setAttribute('aria-label', `Go to slide ${idx + 1}`);
-        dotsContainer.appendChild(dot);
+    // Hide nav if only one slide
+    if (slides.length <= 1) {
+      if (prevBtn) prevBtn.style.display = 'none';
+      if (nextBtn) nextBtn.style.display = 'none';
+      if (dotsWrap) dotsWrap.style.display = 'none';
+      return;
+    }
+
+    let currentIndex = 0;
+
+    // Build dots
+    if (dotsWrap) {
+      dotsWrap.innerHTML = '';
+      slides.forEach((_, index) => {
+        const dot = document.createElement('button');
+        dot.type = 'button';
+        dot.className = 'carousel-dot';
+        dot.setAttribute('aria-label', `Go to image ${index + 1}`);
+        dot.addEventListener('click', () => {
+          currentIndex = index;
+          updateCarousel();
+        });
+        dotsWrap.appendChild(dot);
       });
     }
 
-    const dots = carousel.querySelectorAll('.carousel-dot');
-    const prevBtn = carousel.querySelector('.carousel-btn.prev');
-    const nextBtn = carousel.querySelector('.carousel-btn.next');
-    
-    let currentIndex = 0;
-    
-    const loadSlideImage = (slide) => {
-      if (!slide) return;
+    const dots = dotsWrap ? Array.from(dotsWrap.querySelectorAll('.carousel-dot')) : [];
+
+    // Load deferred images on demand
+    function loadSlide(slide) {
       const img = slide.querySelector('img[data-src]');
       if (img) {
         img.src = img.dataset.src;
         img.removeAttribute('data-src');
       }
-    };
+    }
 
-    const updateCarousel = (index) => {
-      currentIndex = index;
-      if (currentIndex < 0) currentIndex = slides.length - 1;
-      if (currentIndex >= slides.length) currentIndex = 0;
-      
-      // Load current slide image
-      loadSlideImage(slides[currentIndex]);
-      // Pre-load next and previous slides for smooth transitions
-      loadSlideImage(slides[(currentIndex + 1) % slides.length]);
-      loadSlideImage(slides[(currentIndex - 1 + slides.length) % slides.length]);
-      
-      // Move track using transform translate
+    function updateCarousel() {
       track.style.transform = `translateX(-${currentIndex * 100}%)`;
-      
-      // Update dot active class
-      dots.forEach((dot, idx) => {
-        if (idx === currentIndex) {
-          dot.classList.add('active');
-        } else {
-          dot.classList.remove('active');
-        }
+      // Load current + adjacent slides
+      loadSlide(slides[currentIndex]);
+      loadSlide(slides[(currentIndex + 1) % slides.length]);
+      loadSlide(slides[(currentIndex - 1 + slides.length) % slides.length]);
+
+      dots.forEach((dot, index) => {
+        dot.classList.toggle('active', index === currentIndex);
       });
-    };
-    
+    }
+
     if (prevBtn) {
-      prevBtn.addEventListener('click', (e) => {
-        e.preventDefault();
-        updateCarousel(currentIndex - 1);
+      prevBtn.addEventListener('click', () => {
+        currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+        updateCarousel();
       });
     }
-    
+
     if (nextBtn) {
-      nextBtn.addEventListener('click', (e) => {
-        e.preventDefault();
-        updateCarousel(currentIndex + 1);
+      nextBtn.addEventListener('click', () => {
+        currentIndex = (currentIndex + 1) % slides.length;
+        updateCarousel();
       });
     }
-    
-    dots.forEach((dot, idx) => {
-      dot.addEventListener('click', (e) => {
-        e.preventDefault();
-        updateCarousel(idx);
-      });
-    });
-    
-    // Swipe gestures support for mobile touch screens
-    let startX = 0;
-    let endX = 0;
-    
+
+    // Touch swipe support
+    let touchStartX = 0;
     carousel.addEventListener('touchstart', (e) => {
-      startX = e.touches[0].clientX;
+      touchStartX = e.touches[0].clientX;
     }, { passive: true });
-    
     carousel.addEventListener('touchend', (e) => {
-      endX = e.changedTouches[0].clientX;
-      handleSwipe();
-    }, { passive: true });
-    
-    const handleSwipe = () => {
-      const swipeThreshold = 50; // min pixels to count as swipe
-      if (startX - endX > swipeThreshold) {
-        // Swipe left (next slide)
-        updateCarousel(currentIndex + 1);
-      } else if (endX - startX > swipeThreshold) {
-        // Swipe right (prev slide)
-        updateCarousel(currentIndex - 1);
+      const diff = touchStartX - e.changedTouches[0].clientX;
+      if (Math.abs(diff) > 50) {
+        currentIndex = diff > 0
+          ? (currentIndex + 1) % slides.length
+          : (currentIndex - 1 + slides.length) % slides.length;
+        updateCarousel();
       }
-    };
+    }, { passive: true });
+
+    // Initialize
+    updateCarousel();
   });
 
   // Gallery View More functionality
