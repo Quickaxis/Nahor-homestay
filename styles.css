@@ -2734,3 +2734,111 @@ section {
   }
 }
 
+/* ── Booking Choice Modal ─────────────────────────────────────────────────── */
+.booking-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 99999;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.booking-modal.active {
+  display: flex;
+}
+
+.booking-modal-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(7, 22, 16, 0.58);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.booking-modal-card {
+  position: relative;
+  width: min(100%, 430px);
+  padding: 32px;
+  border-radius: 32px;
+  background: rgba(255, 252, 244, 0.96);
+  border: 1px solid rgba(15, 42, 31, 0.12);
+  box-shadow: 0 28px 80px rgba(15, 42, 31, 0.22);
+  text-align: center;
+  z-index: 2;
+}
+
+.booking-modal-card h3 {
+  margin: 8px 0 10px;
+  font-size: 1.8rem;
+  line-height: 1.1;
+  color: var(--text-main);
+  font-family: var(--font-heading);
+  font-weight: 800;
+}
+
+.booking-modal-card p {
+  color: var(--text-muted);
+  line-height: 1.6;
+  margin-bottom: 24px;
+  font-size: 0.95rem;
+}
+
+.booking-modal-close {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  width: 38px;
+  height: 38px;
+  border-radius: 999px;
+  border: 1px solid rgba(15, 42, 31, 0.12);
+  background: rgba(255, 255, 255, 0.7);
+  color: var(--text-main);
+  font-size: 1.4rem;
+  line-height: 1;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  transition: all 0.2s ease;
+}
+
+.booking-modal-close:hover {
+  background: rgba(255, 255, 255, 1);
+  transform: scale(1.05);
+}
+
+.booking-modal-actions {
+  display: grid;
+  gap: 12px;
+}
+
+.booking-modal-actions a {
+  width: 100%;
+  justify-content: center;
+  display: inline-flex;
+  align-items: center;
+  min-height: 48px;
+  padding: 10px 24px;
+  font-size: 0.95rem;
+  font-weight: 800;
+  border-radius: 999px;
+  text-decoration: none;
+}
+
+body.booking-modal-open {
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .booking-modal-card {
+    padding: 26px 22px;
+    border-radius: 28px;
+  }
+
+  .booking-modal-card h3 {
+    font-size: 1.5rem;
+  }
+}
+
+

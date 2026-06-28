@@ -231,7 +231,9 @@ document.addEventListener('DOMContentLoaded', () => {
       choiceBtns.forEach(btn => btn.classList.toggle('active', btn.dataset.choice === choice));
       if (priceEl) priceEl.textContent = opt.price;
       if (noteEl) noteEl.textContent = opt.note;
-      if (whatsappBtn) whatsappBtn.href = 'https://wa.me/919401709323?text=' + encodeURIComponent(opt.message);
+      if (whatsappBtn) {
+        whatsappBtn.setAttribute('data-whatsapp-message', opt.message);
+      }
     }
 
     choiceBtns.forEach(btn => {
@@ -239,6 +241,49 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     updateChoice('non-ac');
+  }
+
+  // ── Booking Choice Modal Logic ─────────────────────────────────────────────
+  const bookingModal = document.getElementById("bookingModal");
+  const modalWhatsappLink = bookingModal?.querySelector(".booking-whatsapp-link");
+  const closeButtons = document.querySelectorAll("[data-close-booking]");
+
+  if (bookingModal) {
+    const defaultMessage = "Hello Nahor Homestay, I want to book a room. Please share availability.";
+
+    function openBookingModal(message = defaultMessage) {
+      if (modalWhatsappLink) {
+        modalWhatsappLink.href = "https://wa.me/919401709323?text=" + encodeURIComponent(message);
+      }
+      bookingModal.classList.add("active");
+      bookingModal.setAttribute("aria-hidden", "false");
+      document.body.classList.add("booking-modal-open");
+    }
+
+    function closeBookingModal() {
+      bookingModal.classList.remove("active");
+      bookingModal.setAttribute("aria-hidden", "true");
+      document.body.classList.remove("booking-modal-open");
+    }
+
+    // Attach listener using event delegation or direct selection
+    document.querySelectorAll(".open-booking-modal").forEach((button) => {
+      button.addEventListener("click", (event) => {
+        event.preventDefault();
+        const customMessage = button.getAttribute("data-whatsapp-message") || defaultMessage;
+        openBookingModal(customMessage);
+      });
+    });
+
+    closeButtons.forEach((button) => {
+      button.addEventListener("click", closeBookingModal);
+    });
+
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape") {
+        closeBookingModal();
+      }
+    });
   }
 
 }); // end DOMContentLoaded
