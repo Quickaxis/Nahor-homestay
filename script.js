@@ -3,21 +3,47 @@ document.addEventListener('DOMContentLoaded', () => {
   // ── Mobile Menu Toggle ──────────────────────────────────────────────────────
   const menuToggle = document.getElementById('menu-toggle');
   const navLinks = document.getElementById('nav-links');
+  const navbar = document.querySelector('.navbar');
 
   if (menuToggle && navLinks) {
-    menuToggle.addEventListener('click', () => {
-      navLinks.classList.toggle('active');
-      menuToggle.classList.toggle('active');
-      const expanded = menuToggle.getAttribute('aria-expanded') === 'true';
-      menuToggle.setAttribute('aria-expanded', String(!expanded));
+    function openMenu() {
+      navLinks.classList.add('active');
+      menuToggle.classList.add('active');
+      navbar?.classList.add('menu-open');
+      menuToggle.setAttribute('aria-expanded', 'true');
+    }
+
+    function closeMenu() {
+      navLinks.classList.remove('active');
+      navLinks.classList.remove('open');
+      menuToggle.classList.remove('active');
+      navbar?.classList.remove('menu-open');
+      menuToggle.setAttribute('aria-expanded', 'false');
+    }
+
+    function toggleMenu(event) {
+      event.preventDefault();
+      event.stopPropagation();
+      const isOpen = navLinks.classList.contains('active') || navLinks.classList.contains('open');
+      isOpen ? closeMenu() : openMenu();
+    }
+
+    menuToggle.addEventListener('click', toggleMenu);
+
+    // Close when a nav link is clicked
+    navLinks.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', closeMenu);
     });
 
-    navLinks.querySelectorAll('a').forEach(link => {
-      link.addEventListener('click', () => {
-        navLinks.classList.remove('active');
-        menuToggle.classList.remove('active');
-        menuToggle.setAttribute('aria-expanded', 'false');
-      });
+    // Close when clicking outside navbar
+    document.addEventListener('click', event => {
+      const clickedInsideNavbar = navbar?.contains(event.target);
+      if (!clickedInsideNavbar) closeMenu();
+    });
+
+    // Close on desktop resize
+    window.addEventListener('resize', () => {
+      if (window.innerWidth > 768) closeMenu();
     });
   }
 
@@ -58,7 +84,6 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   // ── Navbar shrink on scroll ─────────────────────────────────────────────────
-  const navbar = document.querySelector('.navbar');
   if (navbar) {
     window.addEventListener('scroll', () => {
       navbar.classList.toggle('scrolled', window.scrollY > 50);
