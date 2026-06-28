@@ -288,7 +288,7 @@ Use amenities only from `content.md`.
 * Private balcony
 * Balcony in both 2BHK units
 * Lounge available
-* Family-friendly rooms
+* Couple & Family-Friendly Rooms
 * Spacious 1BHK and 2BHK units
 
 ## Design
