@@ -1412,29 +1412,17 @@ section {
   transform: scale(1.05);
 }
 
-.gallery-overlay {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(0deg, rgba(16, 26, 20, 0.8) 0%, transparent 60%);
-  display: flex;
-  align-items: flex-end;
-  padding: 20px;
-  opacity: 0;
-  transition: opacity 0.35s ease;
-  z-index: 2;
+.gallery-overlay,
+.gallery-title,
+.gallery-caption,
+.gallery-label,
+.image-caption,
+.image-label,
+.photo-title,
+.photo-overlay {
+  display: none !important;
 }
 
-.gallery-item:hover .gallery-overlay {
-  opacity: 1;
-}
-
-.gallery-title {
-  color: var(--color-white);
-  font-size: var(--text-sm);
-  font-weight: 700;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-}
 
 /* --- Location Section --- */
 .location-grid {
