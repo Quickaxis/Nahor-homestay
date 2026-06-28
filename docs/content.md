@@ -300,37 +300,33 @@ Lounge access is available at ₹500 extra.
 
 These house rules must be shown clearly on the website.
 
-## No Smoking
+## Smoking Policy
 
-Smoking and spitting are strictly prohibited inside the premises.
+Smoking is allowed, but guests must keep the premises clean and avoid disturbing others.
+
+## No Spitting or Littering
+
+Spitting and littering are strictly not allowed inside or around the homestay premises.
 
 ## Quiet Hours
 
-No loud music after 10:00 PM. Please respect everyone’s peace.
-
-## TV Volume
-
-Kindly keep the TV volume low after 10:00 PM.
+No loud music after 10:00 PM. Please respect everyone's peace and sleep schedule.
 
 ## No Visitors
 
-Parties, events, and unregistered guests are not allowed on the premises.
+Parties, large events, and unregistered outside visitors are not permitted.
 
 ## Save Energy
 
-Please switch off the AC and all electrical points when not in use.
+Please switch off the air conditioning and all electrical appliances when leaving rooms.
 
-## No Bedroom Dining
+## Cleanliness & Kitchen
 
-Kindly avoid eating or drinking inside the bedrooms to maintain hygiene.
+Use dustbins and wash all separate kitchen utensils immediately after usage.
 
-## Cleanliness
+## Do Not Move Furniture
 
-Please use dustbins and clean utensils immediately after usage.
-
-## Furniture
-
-Please do not rearrange the furniture or furnishings of the house.
+Please do not move or rearrange furniture, frames, or interior decor setups of the house.
 
 ## Damage Policy
 
