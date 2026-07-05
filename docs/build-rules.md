@@ -64,7 +64,7 @@ Use these details only if they match `content.md`.
 
 ## Contact
 
-Phone / WhatsApp: `+91 94017 09323`
+Phone / WhatsApp: `+91 93654 23399`
 
 ## Instagram
 
@@ -448,24 +448,24 @@ Important highlight:
 
 Every important CTA must connect to the real number:
 
-`+91 94017 09323`
+`+91 93654 23399`
 
 WhatsApp links should use this format:
 
 ```txt
-https://wa.me/919401709323
+https://wa.me/919365423399
 ```
 
 Optional prefilled message:
 
 ```txt
-https://wa.me/919401709323?text=Hello%20Nahor%20Homestay%2C%20I%20want%20to%20book%20a%20room.
+https://wa.me/919365423399?text=Hello%20Nahor%20Homestay%2C%20I%20want%20to%20book%20a%20room.
 ```
 
 Call link:
 
 ```txt
-tel:+919401709323
+tel:+919365423399
 ```
 
 Do not use any other number.

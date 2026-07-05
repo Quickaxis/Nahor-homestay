@@ -189,7 +189,7 @@ Use:
 
 Contact details:
 
-Phone / WhatsApp: `+91 94017 09323`
+Phone / WhatsApp: `+91 93654 23399`
 Instagram: `@nahorhomestay`
 Google Maps: `https://maps.app.goo.gl/Vk3cj9z2UcWE7DzCA`
 
@@ -264,7 +264,7 @@ Answer: Yes, both 2BHK units have balcony access.
 ## FAQ 8
 
 Question: How can I book Nahor Homestay?
-Answer: You can book by calling or sending a WhatsApp message to +91 94017 09323.
+Answer: You can book by calling or sending a WhatsApp message to +91 93654 23399.
 
 ---
 
@@ -279,7 +279,7 @@ Use:
 * Name: Nahor Homestay
 * Type: LodgingBusiness
 * Location: Near Mancota Gaon, Banipur Railway Station, Dibrugarh, Assam
-* Phone: +91 94017 09323
+* Phone: +91 93654 23399
 * Instagram: @nahorhomestay
 * Google Maps: https://maps.app.goo.gl/Vk3cj9z2UcWE7DzCA
 

@@ -253,7 +253,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function openBookingModal(message = defaultMessage) {
       if (modalWhatsappLink) {
-        modalWhatsappLink.href = "https://wa.me/919401709323?text=" + encodeURIComponent(message);
+        modalWhatsappLink.href = "https://wa.me/919365423399?text=" + encodeURIComponent(message);
       }
       bookingModal.classList.add("active");
       bookingModal.setAttribute("aria-hidden", "false");
