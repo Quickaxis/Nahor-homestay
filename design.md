@@ -79,7 +79,7 @@ Example hero copy:
 
 * Label: `WELCOME TO NAHOR HOMESTAY`
 * Heading: `Your Comfortable Stay in Dibrugarh`
-* Description: `Spacious 1BHK and 2BHK stays near Mancota Gaon and Banipur Railway Station.`
+* Description: `Spacious 1BHK and 2BHK stays near Mancota Gaon and Dibrugarh Railway Station.`
 * Primary button: `Book on WhatsApp`
 * Secondary button: `View Rooms`
 
@@ -630,12 +630,12 @@ Saturday/Sunday: ₹1400
 Weekdays: ₹1500
 Saturday/Sunday: ₹1700
 
-### 2BHK Non-AC Unit
+### 2BHK AC Unit 1
 
-Weekdays: ₹2500
-Saturday/Sunday: ₹2800
+Weekdays: ₹2800
+Saturday/Sunday: ₹3000
 
-### 2BHK AC / Premium Unit
+### 2BHK AC Unit 2
 
 Weekdays: ₹2800
 Saturday/Sunday: ₹3000

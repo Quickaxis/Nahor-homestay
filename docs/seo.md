@@ -14,7 +14,7 @@ The website should naturally target searches like:
 * Affordable homestay in Dibrugarh
 * Homestay near Dibrugarh Railway Station
 * Homestay near Dibrugarh rail station
-* Homestay near Banipur Railway Station
+* 2BHK AC homestay in Dibrugarh
 * Homestay near Mancota Gaon
 * 1BHK homestay in Dibrugarh
 * 2BHK homestay in Dibrugarh
@@ -42,7 +42,7 @@ Use this as the main website title:
 
 Use these only if needed:
 
-`Nahor Homestay | Homestay in Dibrugarh Near Banipur Railway Station`
+`Nahor Homestay | Homestay in Dibrugarh Near Dibrugarh Railway Station`
 
 `Affordable Homestay in Dibrugarh | Nahor Homestay`
 
@@ -56,11 +56,11 @@ Use these only if needed:
 
 Use this meta description:
 
-`Book comfortable 1BHK and 2BHK stays at Nahor Homestay in Dibrugarh, near Mancota Gaon and Banipur Railway Station. Affordable AC and Non-AC rooms with Wi-Fi, parking, RO water, kitchen, balcony, and power backup.`
+`Nahor Homestay offers comfortable 1BHK and 2BHK AC stays in Dibrugarh near Dibrugarh Railway Station, with Wi-Fi, parking, RO water, kitchen access, balcony, and power backup.`
 
 Keep meta description under 160 characters if possible in the final code. If needed, use this shorter version:
 
-`Book affordable 1BHK and 2BHK rooms at Nahor Homestay Dibrugarh near Mancota Gaon and Banipur Railway Station. Wi-Fi, parking, kitchen and balcony available.`
+`Book affordable 1BHK and 2BHK rooms at Nahor Homestay Dibrugarh near Mancota Gaon and Dibrugarh Railway Station. Wi-Fi, parking, kitchen and balcony available.`
 
 ---
 
@@ -89,7 +89,7 @@ Use these naturally in location, hero, about, FAQ, and footer sections:
 
 * Homestay near Dibrugarh Railway Station
 * Homestay near Dibrugarh rail station
-* Homestay near Banipur Railway Station
+* 2BHK AC stay near Dibrugarh Railway Station
 * Homestay near Mancota Gaon
 * Homestay near Mancotta Gaon
 * Homestay in Dibrugarh Assam
@@ -98,7 +98,7 @@ Use these naturally in location, hero, about, FAQ, and footer sections:
 * Affordable stay in Dibrugarh
 * Family stay in Dibrugarh
 
-Note: The confirmed location is near Mancota Gaon / Banipur Railway Station, Dibrugarh, Assam. Do not invent exact distance from Dibrugarh Railway Station unless provided.
+Note: The confirmed location is near Mancota Gaon / Dibrugarh Railway Station, Dibrugarh, Assam. Do not invent exact distance from Dibrugarh Railway Station unless provided.
 
 ---
 
@@ -145,7 +145,7 @@ Use H2 for main sections:
 * `Affordable Homestay Pricing in Dibrugarh`
 * `Amenities at Nahor Homestay`
 * `House Rules`
-* `Homestay Location Near Banipur Railway Station`
+* `Homestay Location Near Dibrugarh Railway Station`
 * `Frequently Asked Questions`
 * `Book Nahor Homestay`
 
@@ -157,8 +157,8 @@ Examples:
 
 * `1BHK Non-AC Ground Floor`
 * `1BHK AC 3rd Floor`
-* `2BHK Non-AC Unit`
-* `2BHK AC / Premium Unit`
+* `2BHK AC Unit 1`
+* `2BHK AC Unit 2`
 
 ---
 
@@ -166,7 +166,7 @@ Examples:
 
 Use this copy naturally in the website:
 
-`Nahor Homestay is a comfortable and affordable homestay in Dibrugarh, Assam, located near Mancota Gaon and Banipur Railway Station. Guests can choose from spacious 1BHK and 2BHK units with AC and Non-AC options, free Wi-Fi, parking, RO drinking water, kitchen access, power backup, and balcony facilities.`
+`Nahor Homestay is a comfortable and affordable homestay in Dibrugarh, Assam, located near Mancota Gaon and Dibrugarh Railway Station. Guests can choose from spacious 1BHK and 2BHK units with AC, free Wi-Fi, parking, RO drinking water, kitchen access, power backup, and balcony facilities.`
 
 Do not overuse the same keyword repeatedly.
 
@@ -181,7 +181,7 @@ Use:
 * Dibrugarh
 * Assam
 * Mancota Gaon
-* Banipur Railway Station
+* Dibrugarh Railway Station
 * Nahor Homestay
 * Google Maps link
 * Phone number
@@ -212,7 +212,7 @@ Use alt text like:
 * `1BHK Non-AC room at Nahor Homestay Dibrugarh`
 * `1BHK AC room at Nahor Homestay Dibrugarh`
 * `2BHK homestay unit with balcony in Dibrugarh`
-* `Nahor Homestay room near Banipur Railway Station`
+* `Nahor Homestay room near Dibrugarh Railway Station`
 * `Homestay balcony at Nahor Homestay Dibrugarh`
 * `Kitchen facility at Nahor Homestay Dibrugarh`
 
@@ -229,7 +229,7 @@ Include these FAQs:
 ## FAQ 1
 
 Question: Where is Nahor Homestay located?
-Answer: Nahor Homestay is located near Mancota Gaon and Banipur Railway Station in Dibrugarh, Assam.
+Answer: Nahor Homestay is located near Mancota Gaon and Dibrugarh Railway Station in Dibrugarh, Assam.
 
 ## FAQ 2
 
@@ -239,7 +239,7 @@ Answer: Yes, Nahor Homestay offers affordable 1BHK and 2BHK stay options in Dibr
 ## FAQ 3
 
 Question: Is Nahor Homestay near Dibrugarh Railway Station?
-Answer: Nahor Homestay is located in Dibrugarh near Mancota Gaon and Banipur Railway Station. Do not mention exact distance from Dibrugarh Railway Station unless confirmed.
+Answer: Nahor Homestay is located in Dibrugarh near Mancota Gaon and Dibrugarh Railway Station.
 
 ## FAQ 4
 
@@ -278,7 +278,7 @@ Use:
 
 * Name: Nahor Homestay
 * Type: LodgingBusiness
-* Location: Near Mancota Gaon, Banipur Railway Station, Dibrugarh, Assam
+* Location: Near Mancota Gaon, Dibrugarh Railway Station, Dibrugarh, Assam
 * Phone: +91 93654 23399
 * Instagram: @nahorhomestay
 * Google Maps: https://maps.app.goo.gl/Vk3cj9z2UcWE7DzCA
@@ -303,7 +303,7 @@ Use these values for social sharing:
 
 ## OG Description
 
-`Comfortable 1BHK and 2BHK homestay in Dibrugarh near Mancota Gaon and Banipur Railway Station. AC and Non-AC rooms, Wi-Fi, parking, kitchen, balcony, and power backup available.`
+`Comfortable 1BHK and 2BHK homestay in Dibrugarh near Mancota Gaon and Dibrugarh Railway Station. AC rooms, Wi-Fi, parking, kitchen, balcony, and power backup available.`
 
 ## OG Image
 
@@ -351,7 +351,7 @@ Do not write repeated lines like:
 
 Instead write naturally:
 
-`Nahor Homestay is a comfortable and affordable homestay in Dibrugarh for guests looking for 1BHK and 2BHK stay options near Mancota Gaon and Banipur Railway Station.`
+`Nahor Homestay is a comfortable and affordable homestay in Dibrugarh for guests looking for 1BHK and 2BHK stay options near Mancota Gaon and Dibrugarh Railway Station.`
 
 Use “best homestay in Dibrugarh” carefully. It can be used as a search keyword, but avoid fake claims unless phrased naturally.
 

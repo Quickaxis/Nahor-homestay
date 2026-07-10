@@ -36,7 +36,7 @@ Homestay
 
 ## Location
 
-Near Mancota Gaon, Banipur Railway Station, Dibrugarh, Assam
+Near Mancota Gaon, Dibrugarh Railway Station, Dibrugarh, Assam
 
 ## Google Maps Link
 
@@ -58,7 +58,7 @@ The website should help guests understand the rooms, pricing, amenities, locatio
 
 # 2. Property Overview
 
-Nahor Homestay is a comfortable and family-friendly homestay in Dibrugarh, located near Mancota Gaon and Banipur Railway Station. The property offers spacious 1BHK and 2BHK stays with essential facilities like free Wi-Fi, parking, RO drinking water, geyser, separate kitchen, power backup, and balcony access.
+Nahor Homestay is a comfortable and family-friendly homestay in Dibrugarh, located near Mancota Gaon and Dibrugarh Railway Station. The property offers spacious 1BHK and 2BHK stays with essential facilities like free Wi-Fi, parking, RO drinking water, geyser, separate kitchen, power backup, and balcony access.
 
 The website copy should feel simple, premium, warm, and trustworthy.
 
@@ -76,7 +76,7 @@ Your Comfortable Stay in Dibrugarh
 
 ## Hero Description
 
-Spacious 1BHK and 2BHK homestay units near Mancota Gaon and Banipur Railway Station, designed for families, groups, and peaceful stays in Dibrugarh.
+Spacious 1BHK and 2BHK homestay units near Mancota Gaon and Dibrugarh Railway Station, designed for families, groups, and peaceful stays in Dibrugarh.
 
 ## Primary Button
 
@@ -93,7 +93,7 @@ View Rooms
 * Parking Available
 * Private Balcony
 * 24x7 Power Backup
-* Near Banipur Railway Station
+* Near Dibrugarh Railway Station
 
 ---
 
@@ -101,11 +101,11 @@ View Rooms
 
 ## Section Title
 
-A Peaceful Homestay Near Banipur Railway Station
+A Peaceful Homestay Near Dibrugarh Railway Station
 
 ## About Text
 
-Nahor Homestay offers a peaceful and comfortable stay experience in Dibrugarh. Located near Mancota Gaon and Banipur Railway Station, the homestay is ideal for families, travellers, and groups looking for spacious rooms with practical facilities.
+Nahor Homestay offers a peaceful and comfortable stay experience in Dibrugarh. Located near Mancota Gaon and Dibrugarh Railway Station, the homestay is ideal for families, travellers, and groups looking for spacious rooms with practical facilities.
 
 Guests can choose from 1BHK and 2BHK units with access to free Wi-Fi, RO drinking water, geyser, separate kitchen, parking, power backup, and balcony spaces.
 
@@ -132,34 +132,43 @@ Enjoy a clean, spacious, and comfortable homestay experience in Dibrugarh with 1
 
 ## 2BHK Overview
 
-Nahor Homestay has 2 spacious 2BHK units. Both 2BHK units are located on the 2nd floor, have balcony access, and are suitable for families and group stays.
+Nahor Homestay has 2 spacious 2BHK AC units. Both 2BHK AC units are on the 2nd floor and include balcony access, and are suitable for families and group stays.
 
-## 2BHK Unit 1
+## 2BHK AC Unit 1
 
-Room Type: 2BHK AC / Premium Unit
+Room Type: 2BHK AC Unit 1
 Floor: 2nd Floor
-Room Specification:
-* 1 AC room
-* 1 Non-AC room
-* Balcony available
-* Separate kitchen available
+Description:
+A spacious 2BHK AC unit on the 2nd floor with comfortable bedrooms, kitchen access, balcony space, and a peaceful stay setup for families, couples, and groups.
+Badges:
+* AC
+* 2nd Floor
+* Balcony
+* 2 Bedrooms
+* Kitchen Access
+* Free Wi-Fi
 Suitable For:
 * Families
 * Groups
-* Comfortable premium stay
+* Comfortable stay
 
-## 2BHK Unit 2
+## 2BHK AC Unit 2
 
-Room Type: 2BHK Non-AC Unit
+Room Type: 2BHK AC Unit 2
 Floor: 2nd Floor
-Room Specification:
-* Both rooms Non-AC
-* Balcony available
-* Separate kitchen available
+Description:
+A comfortable 2BHK AC unit on the 2nd floor with spacious rooms, kitchen access, balcony space, and a clean homestay setup for families, couples, and group stays.
+Badges:
+* AC
+* 2nd Floor
+* Balcony
+* 2 Bedrooms
+* Kitchen Access
+* Free Wi-Fi
 Suitable For:
 * Families
 * Groups
-* Budget-friendly stay
+* Comfortable stay
 
 ---
 
@@ -226,12 +235,12 @@ Saturday/Sunday: ₹1700
 Weekdays: ₹1500 (AC) / TODO: Confirm Non-AC price
 Saturday/Sunday: ₹1700 (AC) / TODO: Confirm Non-AC price
 
-## 2BHK Non-AC Unit
+## 2BHK AC Unit 1
 
-Weekdays: ₹2500
-Saturday/Sunday: ₹2800
+Weekdays: ₹2800
+Saturday/Sunday: ₹3000
 
-## 2BHK AC / Premium Unit
+## 2BHK AC Unit 2
 
 Weekdays: ₹2800
 Saturday/Sunday: ₹3000
@@ -253,7 +262,7 @@ Use these amenities only:
 * Separate kitchen
 * 24x7 power backup
 * Private balcony
-* Balcony in both 2BHK units
+* Balcony in both 2BHK AC units
 * Lounge available
 * Couple & Family-Friendly Rooms
 * Spacious 1BHK and 2BHK units
@@ -340,8 +349,8 @@ Use these titles for room cards:
 
 * 1BHK Non-AC Ground Floor
 * 1BHK AC 3rd Floor
-* 2BHK Non-AC Unit
-* 2BHK AC / Premium Unit
+* 2BHK AC Unit 1
+* 2BHK AC Unit 2
 
 ---
 
@@ -371,7 +380,7 @@ Easy to Reach Location in Dibrugarh
 
 ## Location Text
 
-Nahor Homestay is located near Mancota Gaon and Banipur Railway Station in Dibrugarh, Assam. The location is suitable for guests looking for a peaceful stay with easy access to nearby areas.
+Nahor Homestay is located near Mancota Gaon and Dibrugarh Railway Station in Dibrugarh, Assam. The location is suitable for guests looking for a peaceful stay with easy access to nearby areas.
 
 ## Location Button
 
@@ -439,12 +448,12 @@ For bookings, room availability, and pricing details, contact Nahor Homestay dir
 ## FAQ 1
 
 Question: Where is Nahor Homestay located?
-Answer: Nahor Homestay is located near Mancota Gaon and Banipur Railway Station in Dibrugarh, Assam.
+Answer: Nahor Homestay is located near Mancota Gaon and Dibrugarh Railway Station in Dibrugarh, Assam.
 
 ## FAQ 2
 
 Question: What room options are available?
-Answer: Nahor Homestay offers 1BHK and 2BHK units, including AC and Non-AC options.
+Answer: Nahor Homestay offers 1BHK and 2BHK units. 1BHK units have both AC and Non-AC options, and all 2BHK units are AC stays.
 
 ## FAQ 3
 
@@ -459,7 +468,7 @@ Answer: Yes, free Wi-Fi is available.
 ## FAQ 5
 
 Question: Do the 2BHK units have balconies?
-Answer: Yes, both 2BHK units have balconies.
+Answer: Yes, both 2BHK AC units are on the 2nd floor and include balcony access.
 
 ## FAQ 6
 
@@ -499,7 +508,7 @@ Nahor Homestay offers comfortable 1BHK and 2BHK stays in Dibrugarh with essentia
 
 Phone: +91 93654 23399
 Instagram: @nahorhomestay
-Location: Near Mancota Gaon, Banipur Railway Station, Dibrugarh, Assam
+Location: Near Mancota Gaon, Dibrugarh Railway Station, Dibrugarh, Assam
 
 ## Footer Copyright
 

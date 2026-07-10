@@ -150,14 +150,14 @@ Mobile:
 ## Must Include
 
 * Section label: `ABOUT NAHOR HOMESTAY`
-* Heading: `A Peaceful Homestay Near Banipur Railway Station`
+* Heading: `A Peaceful Homestay Near Dibrugarh Railway Station`
 * Short paragraph
 * Highlights
 
 ## Highlights
 
 * Located near Mancota Gaon
-* Near Banipur Railway Station
+* Near Dibrugarh Railway Station
 * 1BHK and 2BHK stays
 * Family-friendly property
 * Free Wi-Fi and parking
@@ -188,8 +188,8 @@ Create cards for:
 
 1. `1BHK Non-AC Ground Floor`
 2. `1BHK AC 3rd Floor`
-3. `2BHK Non-AC Unit`
-4. `2BHK AC / Premium Unit`
+3. `2BHK AC Unit 1`
+4. `2BHK AC Unit 2`
 
 ## Each Room Card Must Include
 
@@ -240,12 +240,12 @@ Create pricing cards for:
 * Weekdays: ₹1500
 * Saturday/Sunday: ₹1700
 
-### 2BHK Non-AC Unit
+### 2BHK AC Unit 1
 
-* Weekdays: ₹2500
-* Saturday/Sunday: ₹2800
+* Weekdays: ₹2800
+* Saturday/Sunday: ₹3000
 
-### 2BHK AC / Premium Unit
+### 2BHK AC Unit 2
 
 * Weekdays: ₹2800
 * Saturday/Sunday: ₹3000
@@ -406,7 +406,7 @@ Use location and map link from `content.md`.
 
 ## Address
 
-Near Mancota Gaon, Banipur Railway Station, Dibrugarh, Assam
+Near Mancota Gaon, Dibrugarh Railway Station, Dibrugarh, Assam
 
 ## Google Maps Link
 

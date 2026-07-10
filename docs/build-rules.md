@@ -76,7 +76,7 @@ Phone / WhatsApp: `+91 93654 23399`
 
 ## Location
 
-Near Mancota Gaon, Banipur Railway Station, Dibrugarh, Assam
+Near Mancota Gaon, Dibrugarh Railway Station, Dibrugarh, Assam
 
 ---
 
@@ -94,12 +94,12 @@ Saturday/Sunday: ₹1400
 Weekdays: ₹1500
 Saturday/Sunday: ₹1700
 
-## 2BHK Non-AC Unit
+## 2BHK AC Unit 1
 
-Weekdays: ₹2500
-Saturday/Sunday: ₹2800
+Weekdays: ₹2800
+Saturday/Sunday: ₹3000
 
-## 2BHK AC / Premium Unit
+## 2BHK AC Unit 2
 
 Weekdays: ₹2800
 Saturday/Sunday: ₹3000
@@ -110,11 +110,11 @@ Saturday/Sunday: ₹3000
 
 ## Party Rate
 
-Party rate starts from ₹2500 onwards.
+Party rate starts from ₹2800 onwards.
 
 Show it as:
 
-`Party Rate Starting From ₹2500`
+`Party Rate Starting From ₹2800`
 
 Do not write a fixed final party price unless the user provides it.
 
@@ -143,8 +143,8 @@ For each room card, show:
 
 For 2BHK cards:
 
-* 2BHK Non-AC Unit
-* 2BHK AC / Premium Unit
+* 2BHK AC Unit 1
+* 2BHK AC Unit 2
 
 For 1BHK cards:
 
@@ -506,7 +506,7 @@ Important SEO phrases:
 * 1BHK homestay in Dibrugarh
 * 2BHK homestay in Dibrugarh
 * Homestay near Mancota Gaon
-* Homestay near Banipur Railway Station
+* Homestay near Dibrugarh Railway Station
 
 ---
 
@@ -526,7 +526,7 @@ Before final delivery, check:
 * No fake reviews are added
 * No wrong room details are added
 * AC/Non-AC options are clear
-* Party rate says starting from ₹2500 onwards
+* Party rate says starting from ₹2800 onwards
 * House rules are visible
 * Mobile layout looks premium
 * Website does not lag
