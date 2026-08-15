@@ -197,8 +197,7 @@ Create cards for:
 * Room title
 * AC or Non-AC badge
 * Floor/unit detail
-* Weekday price
-* Saturday/Sunday price
+* Flat price
 * Key amenities
 * Book button
 
@@ -232,23 +231,19 @@ Create pricing cards for:
 
 ### 1BHK Non-AC Ground Floor
 
-* Weekdays: ₹1300
-* Saturday/Sunday: ₹1400
+* Price: ₹1500/night
 
 ### 1BHK AC 3rd Floor
 
-* Weekdays: ₹1500
-* Saturday/Sunday: ₹1700
+* Price: ₹1700/night
 
 ### 2BHK AC Unit 1
 
-* Weekdays: ₹2800
-* Saturday/Sunday: ₹3000
+* Price: ₹3400/night
 
 ### 2BHK AC Unit 2
 
-* Weekdays: ₹2800
-* Saturday/Sunday: ₹3000
+* Price: ₹3400/night
 
 ### Lounge
 
@@ -258,7 +253,7 @@ Create pricing cards for:
 
 * Use glass pricing cards
 * Show price in large text
-* Keep weekday and weekend price separate
+* Keep single flat price
 * Add Book Now button on each card
 
 ---

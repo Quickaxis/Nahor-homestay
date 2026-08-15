@@ -214,14 +214,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const roomOptions = {
       'non-ac': {
-        price: '₹1300',
-        note: 'Non-AC selected: ₹1300 weekdays / ₹1500 Sat-Sun.',
-        message: 'Hello Nahor Homestay, I want to book the 1BHK AC/Non-AC 3rd Floor with Non-AC option.\nFloor: 3rd Floor\nType: Non-AC\nPrice: ₹1300 weekdays / ₹1500 Sat-Sun.\nPlease share availability.'
+        price: '₹1500',
+        note: 'Non-AC selected: ₹1500 / night',
+        message: 'Hello Nahor Homestay, I want to book the 1BHK AC/Non-AC 3rd Floor with Non-AC option.\nFloor: 3rd Floor\nType: Non-AC\nPrice: ₹1500 / night.\nPlease share availability.'
       },
       ac: {
-        price: '₹1500',
-        note: 'AC selected: ₹1500 weekdays / ₹1700 Sat-Sun.',
-        message: 'Hello Nahor Homestay, I want to book the 1BHK AC/Non-AC 3rd Floor with AC option.\nFloor: 3rd Floor\nType: AC\nPrice: ₹1500 weekdays / ₹1700 Sat-Sun.\nPlease share availability.'
+        price: '₹1700',
+        note: 'AC selected: ₹1700 / night',
+        message: 'Hello Nahor Homestay, I want to book the 1BHK AC/Non-AC 3rd Floor with AC option.\nFloor: 3rd Floor\nType: AC\nPrice: ₹1700 / night.\nPlease share availability.'
       }
     };
 

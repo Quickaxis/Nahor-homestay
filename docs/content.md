@@ -222,28 +222,23 @@ Pricing must be shown clearly. Do not change the prices.
 
 ## 1BHK Non-AC Ground Floor
 
-Weekdays: ₹1300
-Saturday/Sunday: ₹1400
+Price: ₹1500/night
 
 ## 1BHK AC 3rd Floor
 
-Weekdays: ₹1500
-Saturday/Sunday: ₹1700
+Price: ₹1700/night
 
 ## 1BHK AC / Non-AC 3rd Floor
 
-Weekdays: ₹1500 (AC) / TODO: Confirm Non-AC price
-Saturday/Sunday: ₹1700 (AC) / TODO: Confirm Non-AC price
+Price: ₹1500 (Non-AC) / ₹1700 (AC)
 
 ## 2BHK AC Unit 1
 
-Weekdays: ₹2800
-Saturday/Sunday: ₹3000
+Price: ₹3400/night
 
 ## 2BHK AC Unit 2
 
-Weekdays: ₹2800
-Saturday/Sunday: ₹3000
+Price: ₹3400/night
 
 ## Lounge
 
